@@ -6,7 +6,7 @@ import { useTranslation } from "react-i18next";
 
 export default function ItemDetails() {
   const { t } = useTranslation();
-  const actionItem = useSelector((state) => state.actionItem);
+  const actionItem = useSelector((state) => state.base.actionItem);
   const dispatch = useDispatch();
   const { itemId } = useParams();
 

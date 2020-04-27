@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 
 export default function SelectLanguage() {
   const { i18n } = useTranslation();
-  const language = useSelector((state) => state.language);
+  const language = useSelector((state) => state.base.language);
   const dispatch = useDispatch();
 
   useEffect(() => {

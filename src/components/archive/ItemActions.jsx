@@ -6,9 +6,9 @@ import CustomizedSnackbars from "../shared/Snackbar.jsx";
 
 export default function ItemActions() {
   const { t } = useTranslation();
-  const userId = useSelector((state) => state.userId);
-  const loggedIn = useSelector((state) => state.loggedIn);
-  const actionItem = useSelector((state) => state.actionItem);
+  const userId = useSelector((state) => state.session.userId);
+  const loggedIn = useSelector((state) => state.session.loggedIn);
+  const actionItem = useSelector((state) => state.session.actionItem);
   const dispatch = useDispatch();
   const initialSnack = { isOpen: false, msg: "", severity: "" };
   const [snack, setSnack] = useState(initialSnack);

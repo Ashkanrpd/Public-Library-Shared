@@ -10,7 +10,7 @@ export default function Login() {
   const { t } = useTranslation();
   const dispatch = useDispatch();
   const history = useHistory();
-  const redirectPath = useSelector((state) => state.redirectPath);
+  const redirectPath = useSelector((state) => state.session.redirectPath);
   const initialState = {
     email: "",
     password: "",

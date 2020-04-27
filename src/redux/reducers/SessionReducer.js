@@ -6,7 +6,7 @@ const initialState = {
   redirectPath: "",
 };
 
-export default function SessionReducer(state = initialState, action) {
+export default function Reducer(state = initialState, action) {
   switch (action.type) {
     case "LOGIN":
       state.username = action.username;

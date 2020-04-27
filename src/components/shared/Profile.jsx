@@ -6,7 +6,7 @@ import CustomizedSnackbars from "./Snackbar.jsx";
 
 export default function Profile() {
   const { t } = useTranslation();
-  const loggedIn = useSelector((state) => state.loggedIn);
+  const loggedIn = useSelector((state) => state.session.loggedIn);
   const [user, setUser] = useState();
   const [itemsHistory, setHistory] = useState([]);
   const [itemsToReturn, setToReturn] = useState([]);

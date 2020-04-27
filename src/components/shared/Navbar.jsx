@@ -7,9 +7,9 @@ import SelectLanguage from "./SelectLanguage";
 
 export default function Navbar() {
   const { t } = useTranslation();
-  const loggedIn = useSelector((state) => state.loggedIn);
-  const userId = useSelector((state) => state.userId);
-  const name = useSelector((state) => state.name);
+  const loggedIn = useSelector((state) => state.session.loggedIn);
+  const userId = useSelector((state) => state.session.userId);
+  const name = useSelector((state) => state.session.name);
   const [logout, setLogout] = useState(false);
 
   return !loggedIn ? (
