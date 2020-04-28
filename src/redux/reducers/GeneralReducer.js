@@ -1,19 +1,16 @@
 const initialState = {
-  loggedIn: false,
-  name: undefined,
-  username: undefined,
-  userId: undefined,
   searchQ: {},
   items: [],
   categories: [],
   selectedCategory: undefined,
   actionItem: undefined,
   categoriesOpen: true,
-  redirectPath: "",
   language: "en",
 };
 
-export default function Reducer(state = initialState, action) {
+// This is just a regular reducer, we appear to be "mutating" state but redux-immer helps us here later once we combine.
+// We MUST return state at the end of each case.
+export const generalReducer = (state = initialState, action) => {
     switch (action.type) {
       case "SEARCH":
         state.searchQ = action.searchQ;
