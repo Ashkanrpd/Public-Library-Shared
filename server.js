@@ -1,3 +1,3 @@
-const start = require("./server/app.js").start;
+const start = require("./app.js").start;
 
 start("Library");

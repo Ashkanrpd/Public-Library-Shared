@@ -2,10 +2,6 @@
   "name": "library",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:4000",
-  "engines": {
-    "node": "12.x"
-  },
   "dependencies": {
     "@material-ui/core": "^4.9.9",
     "@material-ui/icons": "^4.9.1",
@@ -41,7 +37,8 @@
     "sha1": "^1.1.1"
   },
   "scripts": {
-    "start": "HTTPS=true react-scripts start",
+    "start": "node server.js",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha --exit",
     "eject": "react-scripts eject"

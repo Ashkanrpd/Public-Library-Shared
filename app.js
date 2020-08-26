@@ -3,7 +3,7 @@ let express = require("express");
 let app = express();
 let cookieParser = require("cookie-parser");
 let dbo = undefined;
-let initMongo = require("./database/database.js").initMongo;
+let initMongo = require("./server/database/database.js").initMongo;
 let url = process.env.SERVER_PATH;
 
 app.use(cookieParser());
@@ -14,66 +14,73 @@ app.use("/uploads", express.static("uploads"));
 // Your endpoints go after this line
 
 // Signup
-const signup = require("./endpoints/signup.js");
+const signup = require("./server/endpoints/signup.js");
 app.use("/signup", signup);
 
 // Login
-const login = require("./endpoints/login.js");
+const login = require("./server/endpoints/login.js");
 app.use("/login", login);
 
 //Active Session
-const sessions = require("./endpoints/sessions.js");
+const sessions = require("./server/endpoints/sessions.js");
 app.use("/sessions", sessions);
 
 //Logout
-const logout = require("./endpoints/logout.js");
+const logout = require("./server/endpoints/logout.js");
 app.use("/logout", logout);
 
 // Get Categories
-const categories = require("./endpoints/categories.js");
+const categories = require("./server/endpoints/categories.js");
 app.use("/categories", categories);
 
 // Get all items
-const items = require("./endpoints/items.js");
+const items = require("./server/endpoints/items.js");
 app.use("/items", items);
 
 // Get only 1 item
-const item = require("./endpoints/item.js");
+const item = require("./server/endpoints/item.js");
 app.use("/item", item);
 
 // Borrow a book
-const borrowItem = require("./endpoints/borrow.js");
+const borrowItem = require("./server/endpoints/borrow.js");
 app.use("/borrow", borrowItem);
 
 // Return a book
-const returnItem = require("./endpoints/return.js");
+const returnItem = require("./server/endpoints/return.js");
 app.use("/return", returnItem);
 
 // Reserve a book
-const reserveItem = require("./endpoints/reserve.js");
+const reserveItem = require("./server/endpoints/reserve.js");
 app.use("/reserve", reserveItem);
 
 // Cancel a reserve
-const cancelReserve = require("./endpoints/cancelReserve.js");
+const cancelReserve = require("./server/endpoints/cancelReserve.js");
 app.use("/cancelReserve", cancelReserve);
 
 // Profile
-const profile = require("./endpoints/profile.js");
+const profile = require("./server/endpoints/profile.js");
 app.use("/profile", profile);
 
 // Contact us
-const contact = require("./endpoints/contact.js");
+const contact = require("./server/endpoints/contact.js");
 app.use("/contact", contact);
 
+app.all("/*", (req, res) => {
+  res.sendFile(__dirname + "/build/index.html");
+});
 // Your endpoints go before this line
 
 let listener;
 let start = async (database) => {
   await initMongo(url, database).then((response) => {
     dbo = response;
-    listener = app.listen(4000, "0.0.0.0", () => {
-      console.log("Server running");
-    });
+    listener = app.listen(
+      process.env.PORT || 4000,
+      process.env.LOCAL_ADDRESS || "0.0.0.0",
+      () => {
+        console.log("Server running");
+      }
+    );
   });
 };
 let close = () => {

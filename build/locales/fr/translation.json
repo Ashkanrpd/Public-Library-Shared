@@ -1,0 +1,181 @@
+{
+  "logo": "/Images/logo-fr.png",
+  "HomeContents": {
+    "header1": "Histoire des bibliothèques",
+    "p1": "L'histoire des bibliothèques a commencé avec les premiers efforts pour organiser les collections de documents. Les sujets d'intérêt comprennent l'accessibilité de la collection, l'acquisition de matériel, les outils de rangement et de recherche, le commerce du livre, l'influence des propriétés physiques des différents matériaux d'écriture, la distribution des langues, le rôle dans l'éducation, les taux d'alphabétisation, les budgets, le personnel, les bibliothèques pour des publics spécialement ciblés, le mérite architectural, les modes d'utilisation et le rôle des bibliothèques dans le patrimoine culturel d'une nation, et le rôle du gouvernement, de l'église ou du parrainage privé. Depuis les années 1960, des problèmes d'informatisation et de numérisation sont apparus. L'histoire des bibliothèques est la discipline académique consacrée à l'étude de l'histoire des bibliothèques; c'est un sous-domaine de la bibliothéconomie et de l'histoire.",
+    "header2": " Livraison de livre unique!",
+    "p2": "En raison de COVID-19, la Bibliothèque publique de Montréal restera fermée jusqu'à nouvel avis. Cependant, pour aider nos clients à traverser cette tempête, nous vous offrent un service de livraison spécial pendant cette période. Vous serez être en mesure de demander 10 livres pour la livraison.",
+    "box1": "Rejoignez la campagne ...",
+    "box2": "8 Conseils essentiels pour travailler à domicile pendant la pandémie de coronavirus ...",
+    "cvba-img": "/Images/CVBA-fr.jpg"
+  },
+  "MenuBar": {
+    "1": "ACCUEIL",
+    "2": "ARCHIVES",
+    "3": "SERVICES",
+    "4": "ÉVÉNEMENTS",
+    "5": "NOUS JOINSRE"
+  },
+  "Navbar": {
+    "1": "Mon Compte",
+    "2": "S'inscrire",
+    "3": "Profil",
+    "4": "Se déconnecter"
+  },
+  "Search": {
+    "search": "Chercher",
+    "placeHolder": "Mot-clé",
+    "title": "Titre",
+    "author": "Auteur",
+    "des": "Description",
+    "submit": "Soumettre"
+  },
+  "Footer": {
+    "about-us": {
+      "0": "NOUS JOINSRE",
+      "1": "Adresse",
+      "2": "Horaires d'ouvertures",
+      "3": "Comité des Bibliothèques Publiques",
+      "4": "Notre mission",
+      "5": "Histoire",
+      "6": "Personnel",
+      "7": "À propos de nous"
+    },
+    "friends": {
+      "0": "AMIS DE LA BIBLIOTHÈQUE",
+      "1": "Vente de livre",
+      "2": "Devenez un ami",
+      "3": "FAQ amis",
+      "4": "À propos des amis",
+      "5": "Faire un don"
+    },
+    "montreal": {
+      "0": "VILLE DE MONTREAL",
+      "1": "Nouvelles",
+      "2": "Carrières",
+      "3": "Événements",
+      "4": "Conseil"
+    }
+  },
+  "PoweredBy": "Bootcamps de codage de l'Université Concordia (Ashkan)",
+  "Signup": {
+    "pageTitle": "CHOISISSEZ POUR VOUS CONNECTER",
+    "box1-title": "Compte Facebook ou Google",
+    "fb-text": "S'inscrire avec Facebook",
+    "or": "ou",
+    "g-text": "S'inscrire avec Google",
+    "box2-title": "Inscrivez-vous avec votre Email",
+    "full-name": "Nom complet",
+    "pass": "Mot de passe",
+    "confirm-pass": "Confirmer mot de passe",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "already-member": "Déjà membre?",
+    "start-here": "Commencer ici",
+    "pass-not-match": "Les mots de passe ne correspondent pas"
+  },
+  "Login": {
+    "pageTitle": "CHOISISSEZ POUR VOUS CONNECTER",
+    "box1-title": "Compte Facebook ou Google",
+    "fb-text": "Se connecter avec Facebook",
+    "or": "ou",
+    "g-text": "Se connecter avec Google",
+    "box2-title": "Connectez-vous avec votre Email",
+    "pass": "Mot de passe",
+    "submit": "Soumettre",
+    "cancel": "Annuler",
+    "new-member": "Nouveau membre?",
+    "start-here": "Commencer ici",
+    "pass-not-match": "Les mots de passe ne correspondent pas"
+  },
+  "Categories": "CATÉGORIES",
+  "FilteredItems": {
+    "Item-available": "L'article est disponible",
+    "Item-unavailable": "L'article n'est pas disponible",
+    "more": "...Plus"
+  },
+  "ItemActions": {
+    "you-should": "Vous devez",
+    "login": "Connecter",
+    "first": "d'abord",
+    "available": "Disponible",
+    "yes": "OUI",
+    "borrow": "Emprunter",
+    "no": "NON",
+    "people-on-list": "Personnes sur la liste de réservation",
+    "reserve": "Réserve",
+    "return": "Retourner",
+    "cancel-reserve": "Annuler la réservation"
+  },
+  "ItemDetails": {
+    "pageTitle": "Détails de l'article",
+    "title": "Titre",
+    "author": "Auteur",
+    "categories": "Catégories",
+    "p-date": "Date de publication",
+    "short-des": "Brève Description",
+    "long-des": "Longue Description"
+  },
+  "RenderItems": {
+    "recenlty-added": "RÉCEMMENT AJOUTÉ",
+    "reset-search": "Réinitialiser la recherche",
+    "hide-categories": "Masquer les catégories",
+    "show-categories": "Afficher les catégories",
+    "no-match": "Pas de résultat trouvé!"
+  },
+  "ContactUs": {
+    "pageTitle": "NOUS JOINSRE",
+    "call-us": "Appelez-nous au",
+    "ext": "Poste",
+    "email-us": "Envoyez-nous un e-mail",
+    "mailing-address": "Adresse Postale",
+    "public-library": "Bibliotheque Publique",
+    "address": "8473, Rue Sherbrooke Ouest",
+    "city": "Montréal, Québec",
+    "fields-listed-in": "Les champs indiqués en ",
+    "red": "rouge",
+    "are-mandatory": "sont obligatoires",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "submit": "Soumettre"
+  },
+  "Profile": {
+    "pageTitle": "PROFIL",
+    "name": "Nom",
+    "nothing-to-show": "Il n'y a pas d'histoire à montrer",
+    "items-history": "Historique des articles",
+    "title": "Titre",
+    "b-date": "Date d'emprunt",
+    "r-date": "Date de retour",
+    "items-to-return": "Articles à retourner",
+    "return?": "Rendre le livre",
+    "return": "Retourner",
+    "reserved-items": "Articles Réservés",
+    "estimate": "Disponibilité estimée",
+    "cancel-reserve": "Annuler la réservation?",
+    "cancel": "Annuler"
+  },
+  "Events": {
+    "pageTitle": "Événements",
+    "text": "La Ville de Montréal a annoncé l'annulation de tous les festivals, événements sportifs et rassemblements publics jusqu'au 2 juillet en raison de la pandémie de coronavirus. Dans un communiqué, la Ville de Montréal a indiqué que toutes ses actions pour réduire la propagation du virus suivent les recommandations émises par le service régional de santé publique. Les représentants de la Ville rappellent également aux Montréalais que la maîtrise de l'infection est la responsabilité de tous.",
+    "img": "/Images/rester-maison.png"
+  },
+  "Services": {
+    "title1": "Station de prêt de comprimés libre-service",
+    "title2": "Stations de travail informatiques publiques",
+    "title3": "Impression, photocopie et numérisation",
+    "title4": "Internet sans fil gratuit",
+    "title5": "Réservez une chambre",
+    "title6": "Obtenez une carte de bibliothèque",
+    "text1": "Une station libre-service vous permet d'emprunter une tablette numérique à utiliser à l'intérieur de la bibliothèque, grâce au soutien financier de la Fondation des Amis de la Bibliothèque municipale. Tout ce que vous avez à faire est de: Scanner la carte de votre résident à l'aide du lecteur optique. Entrez votre mot de passe pour déverrouiller l'un des iPads. Les mots de passe ne doivent pas contenir de lettres et doivent être composés de 4 à 8 chiffres uniquement. Pour modifier un mot de passe, veuillez vous rendre en ligne sur le catalogue, dans la section Mon dossier. Prenez l'un des comprimés. Une lumière vous indiquera lequel choisir. Bénéficiez de tous les avantages offerts par une tablette, sur place, dans toutes les sections de la bibliothèque. Après un certain temps, une fenêtre contextuelle apparaîtra sur l'écran de l'iPad et vous n'aurez qu'à réinsérer la tablette dans la station de prêt.",
+    "text2": "Les postes informatiques publics sont accessibles aux adultes (à partir de 13 ans) et aux jeunes. Une autorisation écrite d'un parent est requise pour les enfants âgés de 12 ans ou moins pour surfer sur Internet (un formulaire doit être rempli sur place). Les postes de travail informatiques permettent aux utilisateurs de surfer sur Internet et d'utiliser la suite Microsoft Office. Ces postes de travail peuvent être réservés pour un maximum de deux heures par jour. Les réservations sont acceptées jusqu'à 24 heures à l'avance, en personne au comptoir de service sur présentation d'une carte de résident.",
+    "text3": "L'impression, la copie et la numérisation en couleur et en noir et blanc sont disponibles. La numérisation est gratuite dans tous les emplacements RPL. Les clients peuvent numériser en couleur ou en noir et blanc et enregistrer leurs images sur une clé USB ou les envoyer à une adresse e-mail. Ces imprimantes / copieurs présentent les caractéristiques suivantes:",
+    "text3-1": "- 3 formats de papier: 8,5 ”x 11” (lettre), 8,5 ”x 14” (légal) et 11 ”x 17” (grand livre)",
+    "text3-2": "- Options d'impression / copie recto verso et recto verso",
+    "text3-3": "- Les copies en noir et blanc sont de 0,15 $ par page",
+    "text3-4": "- Les copies couleur coûtent 0,40 $ par page",
+    "text4": "La Bibliothèque publique du Grand Sudbury fournit un accès Internet sans fil gratuit. Vous pouvez accéder au réseau sans fil n'importe où dans la bibliothèque en utilisant votre propre ordinateur portable ou appareil doté d'une connexion Wi-Fi intégrée ou d'une carte adaptateur installée. Le personnel de la bibliothèque ne devrait pas aider les visiteurs à configurer leurs appareils, en raison du large choix d'appareils disponibles. Pour accéder au réseau sans fil, affichez les réseaux sans fil disponibles à partir de votre appareil et sélectionnez 'Public Guest' dans la liste. Aucun mot de passe n'est requis pour accéder au WiFi.",
+    "text5": "La bibliothèque dispose de deux salles d'étude privées - 6C.1 et 6C.3 - pouvant accueillir des groupes de 3 à 5 personnes. Pour réserver une de ces salles pour votre groupe, merci de nous contacter. Lors de la réservation, veuillez fournir votre propre nom et ceux d'au moins 2 partenaires d'étude. En l'absence de réservation, les chambres sont disponibles selon le principe du premier arrivé, premier servi. Si vous avez fait une réservation et trouvez la chambre occupée, veuillez vous présenter au bureau de référence - un bibliothécaire demandera aux occupants de déménager. Dans de tels cas, tous les membres du groupe réservataire doivent être présents.",
+    "text6": "Une carte permanente peut être obtenue en personne en suivant les instructions ci-dessous. Pour recevoir votre carte permanente, vous devez fournir une pièce d'identité actuelle avec votre nom et une preuve d'adresse doit être présentée sur papier ou sur copie électronique (si vous fournissez une pièce d'identité sans photo, deux éléments sont requis)."
+  }
+}

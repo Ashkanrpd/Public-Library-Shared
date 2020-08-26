@@ -1,0 +1,181 @@
+{
+  "logo": "/Images/logo-en.png",
+  "HomeContents": {
+    "header1": "History of Libraries",
+    "p1": "The history of libraries began with the first efforts to organize collections of documents. Topics of interest include accessibility of the collection, acquisition of materials, arrangement and finding tools, the book trade, the influence of the physical properties of the different writing materials, language distribution, role in education, rates of literacy, budgets, staffing, libraries for specially targeted audiences, architectural merit, patterns of usage, and the rolae of libraries in a nation's cultural heritage, and the role of government, church or private sponsorship. Since the 1960s, issues of computerization and digitization have arisen. Library history is the academic discipline devoted to the study of the history of libraries; it is a subfield of library science and of history.",
+    "header2": "One Time Book Delivery!",
+    "p2": "Due to COVID-19, the Montreal Public Library will remain closed until further notice. However, to help our patrons weather this storm, we are offering you a special delivery service during this time. You will be able to request 10 books for delivery.",
+    "box1": "Join the Campaign...",
+    "box2": "8 Essential tips for working from home during the coronavirus pandemic...",
+    "cvba-img": "/Images/CVBA-en.jpg"
+  },
+
+  "MenuBar": {
+    "1": "HOME",
+    "2": "ARCHIVE",
+    "3": "SERVICES",
+    "4": "EVENTS",
+    "5": "CONTACT US"
+  },
+  "Navbar": {
+    "1": "My Account",
+    "2": "Sign up",
+    "3": "Profile",
+    "4": "Logout"
+  },
+  "Search": {
+    "search": "Search",
+    "placeHolder": "Keyword",
+    "title": "Title",
+    "author": "Author",
+    "des": "Description",
+    "submit": "Submit"
+  },
+  "Footer": {
+    "about-us": {
+      "0": "ABOUT US",
+      "1": "Address",
+      "2": "Opening hours",
+      "3": "Public Library Committee",
+      "4": "Our mission",
+      "5": "History",
+      "6": "Staff",
+      "7": "Contact us"
+    },
+    "friends": {
+      "0": "FRIENDS OF THE LIBRARY",
+      "1": "Book sale",
+      "2": "Become a Friend",
+      "3": "Friends FAQ",
+      "4": "About the Friends",
+      "5": "Donate"
+    },
+    "montreal": {
+      "0": "CITY OF MONTREAL",
+      "1": "News",
+      "2": "Careers",
+      "3": "Events",
+      "4": "Council"
+    }
+  },
+  "PoweredBy": "Concordia University Coding Bootcamps (Ashkan)",
+  "Signup": {
+    "pageTitle": "CHOOSE TO SIGN UP",
+    "box1-title": "Facebook or Google account",
+    "fb-text": "Sign up with Facebook",
+    "or": "or",
+    "g-text": "Sign up with Google",
+    "box2-title": "Sign up with your Email",
+    "full-name": "Full Name",
+    "pass": "Password",
+    "confirm-pass": "Confirm Password",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "already-member": "Already a member?",
+    "start-here": "Start here",
+    "pass-not-match": "Passwords are not match"
+  },
+  "Login": {
+    "pageTitle": "CHOOSE TO LOGIN",
+    "box1-title": "Facebook or Google account",
+    "fb-text": "Login with Facebook",
+    "or": "or",
+    "g-text": "Login with Google",
+    "box2-title": "Login with your Email",
+    "pass": "Password",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "new-member": "New member?",
+    "start-here": "Start here"
+  },
+  "Categories": "CATEGORIES",
+  "FilteredItems": {
+    "Item-available": "Item is Available",
+    "Item-unavailable": "Item is Unavailable",
+    "more": "...More"
+  },
+  "ItemActions": {
+    "you-should": "You should",
+    "login": "Login",
+    "first": "first",
+    "available": "Available",
+    "yes": "YES",
+    "borrow": "Borrow",
+    "no": "NO",
+    "people-on-list": "People on Reservation list",
+    "reserve": "Reserve",
+    "return": "Return",
+    "cancel-reserve": "Cancel Reserve"
+  },
+  "ItemDetails": {
+    "pageTitle": "Item Details",
+    "title": "Title",
+    "author": "Author",
+    "categories": "Categories",
+    "p-date": "Published Date",
+    "short-des": "Short Description",
+    "long-des": "Long Description"
+  },
+  "RenderItems": {
+    "recenlty-added": "RECENTLY ADDED",
+    "reset-search": "Reset Search",
+    "hide-categories": "Hide Categories",
+    "show-categories": "Show Categories",
+    "no-match": "No Match Found!"
+  },
+  "ContactUs": {
+    "pageTitle": "CONTACT US",
+    "call-us": "Call us on",
+    "ext": "EXT ",
+    "email-us": "Send us email",
+    "mailing-address": " Mailing Address",
+    "public-library": "Public Library",
+    "address": "8473 Sherbrooke Street West",
+    "city": "Montreal, Quebec",
+    "fields-listed-in": "Fields listed in ",
+    "red": "red",
+    "are-mandatory": "are mandatory",
+    "name": "Name",
+    "phone": "Phone",
+    "submit": "Submit"
+  },
+  "Profile": {
+    "pageTitle": "PROFILE",
+    "name": "Name",
+    "nothing-to-show": "There is no history to show",
+    "items-history": "Items History",
+    "title": "Title",
+    "b-date": "Borrowed Date",
+    "r-date": "Returned Date",
+    "items-to-return": "Items to Return",
+    "return?": "Return book",
+    "return": "Return",
+    "reserved-items": "Reserved Items",
+    "estimate": "Estimated Availability",
+    "cancel-reserve": "Cancel Reserve?",
+    "cancel": "Cancel"
+  },
+  "Events": {
+    "pageTitle": "Events",
+    "text": "The City of Montreal has announced the cancellation of all festivals, sporting events and public gatherings until July 2 due to the Coronavirus pandemic. In a press release, the City of Montreal said all its actions to reduce the spread of the virus follow the recommendations issued by the regional public health department. City officials are also reminding Montrealers that containing the infection is everyone’s responsibility.",
+    "img": "/Images/stay-home.png"
+  },
+  "Services": {
+    "title1": "Self-serve tablet-lending station",
+    "title2": "Public computer workstations",
+    "title3": "Printing, Photocopy and Scanning",
+    "title4": "Free Wireless Internet",
+    "title5": "Reserve a Room",
+    "title6": "Obtain a library card",
+    "text1": "A self-serve station allows you to borrow a digital tablet for use inside the library, thanks to financial support from the Friends of the Municipal Library Foundation. All you have to do is: Scan your Resident’s card using the optical reader. Enter your password to unlock one of the iPads. Passwords may not contain letters and must be made up of 4 to 8 numbers only. To change a password, you please go online on the catalogue, in the My record section. Take one of the tablets. A light will indicate which one to choose. Benefit from all the advantages offered by a tablet, on-site, in any sections of the library. After a certain length of time, a pop-up will appear on the screen of the iPad and you simply have to reinsert the tablet into the lending station.",
+    "text2": "The public computer workstations are available to adults (ages 13 years or over) and young people. Written permission from a parent is required for children ages 12 or under to surf the Internet (a form must be completed on site). The computer workstations allow users to surf the Internet and use the Microsoft Office Suite. These workstations can be reserved for a maximum of two hours a day. Reservations are accepted up to 24 hours in advance, in person at the service counter upon presentation of a Resident’s card.",
+    "text3": "Colour and black and white printing, copying, and scanning are available.Scanning is free at all RPL locations. Customers can scan in colour or black and white and either save their images to a USB drive or send them to an email address. These printers/copiers feature the following:",
+    "text3-1": "- 3 paper sizes: 8.5” x 11” (letter), 8.5” x 14” (legal), and 11” x 17” (ledger)",
+    "text3-2": "- Double-sided and duplex printing/copying options",
+    "text3-3": "- Black and white copies are $0.15 per page",
+    "text3-4": "- Colour copies are $0.40 per page",
+    "text4": "Greater Sudbury Public Library provides free wireless Internet .You may access the wireless network anywhere in the library by using your own portable computer or device that has either built-in WiFi or an installed adapter card. Library staff are not expected to help visitors configure their devices, due to the wide selection of devices available. To access the wireless network, view available wireless networks from your device and select 'Public_Guest' from the list. There are no passwords required to access the WiFi.",
+    "text5": "The library has two private study rooms – 6C.1 and 6C.3 – that can accommodate groups of 3 to 5 people. To book one of these rooms for your group, please use the contact us. When making a reservation, please provide your own name and those of at least 2 study partners. When there are no reservations, the rooms are available on a first come, first served basis. If you have made a reservation and find the room occupied, please come to the Reference Desk – a librarian will ask the occupants to relocate. In such cases, all members of the reserving group must be present..",
+    "text6": "A permanent card can be obtained in person by following the instructions below. To receive your permanent card, you must provide current identification with your name and proof of address must be shown in paper or electronic copy (if you provide a non-photo ID, two items are required)."
+  }
+}
