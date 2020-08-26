@@ -8,7 +8,7 @@ export default function Home() {
     <div className="Home">
       <Search />
       <MenuBar />
-      <img src="/Images/bg.jpg" alt="" className="bg" />
+      <img src="/images/bg.jpg" alt="" className="bg" />
       <HomeContents />
     </div>
   );

@@ -10,7 +10,7 @@ export default function Services() {
       <div className="pageTitle">Services</div>
       <div className="services-contents">
         <div className="service">
-          <img src="/Images/rent-ipad.jpg" alt="" />
+          <img src="/images/rent-ipad.jpg" alt="" />
           <div className="service-details">
             <div className="service-title">{t("Services.title1")}</div>
             <div className="service-text">{t("Services.text1")} </div>
@@ -21,10 +21,10 @@ export default function Services() {
             <div className="service-title">{t("Services.title2")}</div>
             <div className="service-text">{t("Services.text2")} </div>
           </div>
-          <img src="/Images/computer.jpg" alt="" />
+          <img src="/images/computer.jpg" alt="" />
         </div>
         <div className="service">
-          <img src="/Images/copy.jpg" alt="" />
+          <img src="/images/copy.jpg" alt="" />
           <div className="service-details">
             <div className="service-title">{t("Services.title3")}</div>
             <div className="service-text">
@@ -41,10 +41,10 @@ export default function Services() {
             <div className="service-title">{t("Services.title4")}</div>
             <div className="service-text">{t("Services.text4")} </div>
           </div>
-          <img src="/Images/wifi.jpeg" alt="" />
+          <img src="/images/wifi.jpeg" alt="" />
         </div>
         <div className="service">
-          <img src="/Images/room.jpg" alt="" />
+          <img src="/images/room.jpg" alt="" />
           <div className="service-details">
             <div className="service-title">{t("Services.title5")}</div>
             <div className="service-text">{t("Services.text5")} </div>
@@ -55,7 +55,7 @@ export default function Services() {
             <div className="service-title">{t("Services.title6")}</div>
             <div className="service-text">{t("Services.text6")} </div>
           </div>
-          <img src="/Images/card.jpg" alt="" />
+          <img src="/images/card.jpg" alt="" />
         </div>
       </div>
     </div>

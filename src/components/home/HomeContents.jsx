@@ -32,7 +32,7 @@ export default function HomeContents() {
           href="https://www.ctvnews.ca/health/coronavirus/eight-essential-tips-for-working-from-home-during-the-coronavirus-pandemic-1.4874662"
           className="covid"
         >
-          <img src="/Images/covid.jpg" alt="" />
+          <img src="/images/covid.jpg" alt="" />
           <p>{t("HomeContents.box2")}</p>
         </a>
       </div>

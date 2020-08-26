@@ -32,7 +32,7 @@ export default function Footer() {
         <li>{t("Footer.montreal.3")}</li>
         <li>{t("Footer.montreal.4")}</li>
       </ul>
-      <img src="/Images/montreal-logo.png" alt="" className="logo" />
+      <img src="/images/montreal-logo.png" alt="" className="logo" />
     </div>
   );
 }
