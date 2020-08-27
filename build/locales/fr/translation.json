@@ -7,7 +7,7 @@
     "p2": "En raison de COVID-19, la Bibliothèque publique de Montréal restera fermée jusqu'à nouvel avis. Cependant, pour aider nos clients à traverser cette tempête, nous vous offrent un service de livraison spécial pendant cette période. Vous serez être en mesure de demander 10 livres pour la livraison.",
     "box1": "Rejoignez la campagne ...",
     "box2": "8 Conseils essentiels pour travailler à domicile pendant la pandémie de coronavirus ...",
-    "cvba-img": "/Images/CVBA-fr.jpg"
+    "cvba-img": "/images/CVBA-fr.jpg"
   },
   "MenuBar": {
     "1": "ACCUEIL",
@@ -158,7 +158,7 @@
   "Events": {
     "pageTitle": "Événements",
     "text": "La Ville de Montréal a annoncé l'annulation de tous les festivals, événements sportifs et rassemblements publics jusqu'au 2 juillet en raison de la pandémie de coronavirus. Dans un communiqué, la Ville de Montréal a indiqué que toutes ses actions pour réduire la propagation du virus suivent les recommandations émises par le service régional de santé publique. Les représentants de la Ville rappellent également aux Montréalais que la maîtrise de l'infection est la responsabilité de tous.",
-    "img": "/Images/rester-maison.png"
+    "img": "/images/rester-maison.png"
   },
   "Services": {
     "title1": "Station de prêt de comprimés libre-service",

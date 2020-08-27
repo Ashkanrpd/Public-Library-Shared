@@ -7,7 +7,7 @@
     "p2": "Due to COVID-19, the Montreal Public Library will remain closed until further notice. However, to help our patrons weather this storm, we are offering you a special delivery service during this time. You will be able to request 10 books for delivery.",
     "box1": "Join the Campaign...",
     "box2": "8 Essential tips for working from home during the coronavirus pandemic...",
-    "cvba-img": "/Images/CVBA-en.jpg"
+    "cvba-img": "/images/CVBA-en.jpg"
   },
 
   "MenuBar": {
@@ -158,7 +158,7 @@
   "Events": {
     "pageTitle": "Events",
     "text": "The City of Montreal has announced the cancellation of all festivals, sporting events and public gatherings until July 2 due to the Coronavirus pandemic. In a press release, the City of Montreal said all its actions to reduce the spread of the virus follow the recommendations issued by the regional public health department. City officials are also reminding Montrealers that containing the infection is everyone’s responsibility.",
-    "img": "/Images/stay-home.png"
+    "img": "/images/stay-home.png"
   },
   "Services": {
     "title1": "Self-serve tablet-lending station",
