@@ -107,7 +107,7 @@ export default function SignUp() {
             />
             <div>or</div>
             <GoogleLogin
-              clientId={process.env.REACT_APP_GOOGLE_KEY}
+              clientId={process.env.REACT_APP_GOOGLE_CLIENT}
               buttonText={t("Signup.g-text")}
               onSuccess={responseGoogle}
               onFailure={responseGoogle}
